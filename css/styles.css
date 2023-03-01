@@ -1,0 +1,28 @@
+* {
+ box-sizing: border-box;   
+}
+body {
+    padding: 0;
+    margin: 0;
+   background-image: url(../images/esce2.jpg);
+   background-size: 100%;
+   background-repeat: no-repeat;
+}
+   
+
+  
+.bolita {    
+
+   position: relative;
+   animation: mymove 2s infinite;
+ }
+ 
+ @keyframes mymove {
+   from {top: 0px;}
+   50% {top: 34%;} 
+   to {top: 25%;}
+ }
+ .salto {
+  width: 100%;
+  height: 100vh;
+ }
